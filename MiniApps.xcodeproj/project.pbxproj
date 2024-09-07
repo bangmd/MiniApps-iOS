@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB062D692C8D07C70090DB3F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DB062D682C8D07C70090DB3F /* Kingfisher */; };
+		DB1367EC2C8CFA6800BDA113 /* MainViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1367EB2C8CFA6800BDA113 /* MainViewControllerCell.swift */; };
 		DB5A89A62C8A28BD008CA8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89A52C8A28BD008CA8E5 /* AppDelegate.swift */; };
 		DB5A89A82C8A28BD008CA8E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89A72C8A28BD008CA8E5 /* SceneDelegate.swift */; };
-		DB5A89AA2C8A28BD008CA8E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89A92C8A28BD008CA8E5 /* ViewController.swift */; };
-		DB5A89AD2C8A28BD008CA8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5A89AB2C8A28BD008CA8E5 /* Main.storyboard */; };
+		DB5A89AA2C8A28BD008CA8E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89A92C8A28BD008CA8E5 /* MainViewController.swift */; };
 		DB5A89AF2C8A28BF008CA8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5A89AE2C8A28BF008CA8E5 /* Assets.xcassets */; };
 		DB5A89B22C8A28BF008CA8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5A89B02C8A28BF008CA8E5 /* LaunchScreen.storyboard */; };
+		DB5A89BA2C8A2996008CA8E5 /* WeatherMiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89B92C8A2996008CA8E5 /* WeatherMiniApp.swift */; };
+		DB5A89BC2C8A29F5008CA8E5 /* CityMiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89BB2C8A29F5008CA8E5 /* CityMiniApp.swift */; };
+		DB5A89BE2C8A305E008CA8E5 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89BD2C8A305E008CA8E5 /* ApiManager.swift */; };
+		DB5A89C12C8A36C7008CA8E5 /* WeatherResponceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89C02C8A36C7008CA8E5 /* WeatherResponceObject.swift */; };
+		DB5A89C42C8A5A83008CA8E5 /* TimerMiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89C32C8A5A83008CA8E5 /* TimerMiniApp.swift */; };
+		DB5A89C72C8A6541008CA8E5 /* TicTacToeMiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A89C62C8A6541008CA8E5 /* TicTacToeMiniApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB1367EB2C8CFA6800BDA113 /* MainViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerCell.swift; sourceTree = "<group>"; };
 		DB5A89A22C8A28BD008CA8E5 /* MiniApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5A89A52C8A28BD008CA8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB5A89A72C8A28BD008CA8E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB5A89A92C8A28BD008CA8E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB5A89AC2C8A28BD008CA8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5A89A92C8A28BD008CA8E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DB5A89AE2C8A28BF008CA8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5A89B12C8A28BF008CA8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB5A89B32C8A28BF008CA8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5A89B92C8A2996008CA8E5 /* WeatherMiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMiniApp.swift; sourceTree = "<group>"; };
+		DB5A89BB2C8A29F5008CA8E5 /* CityMiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMiniApp.swift; sourceTree = "<group>"; };
+		DB5A89BD2C8A305E008CA8E5 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		DB5A89C02C8A36C7008CA8E5 /* WeatherResponceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponceObject.swift; sourceTree = "<group>"; };
+		DB5A89C32C8A5A83008CA8E5 /* TimerMiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerMiniApp.swift; sourceTree = "<group>"; };
+		DB5A89C62C8A6541008CA8E5 /* TicTacToeMiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeMiniApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +44,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB062D692C8D07C70090DB3F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1367ED2C8D014800BDA113 /* MiniApps */ = {
+			isa = PBXGroup;
+			children = (
+				DB5A89BB2C8A29F5008CA8E5 /* CityMiniApp.swift */,
+				DB5A89B92C8A2996008CA8E5 /* WeatherMiniApp.swift */,
+				DB5A89C32C8A5A83008CA8E5 /* TimerMiniApp.swift */,
+				DB5A89C62C8A6541008CA8E5 /* TicTacToeMiniApp.swift */,
+			);
+			path = MiniApps;
+			sourceTree = "<group>";
+		};
 		DB5A89992C8A28BD008CA8E5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +83,40 @@
 			children = (
 				DB5A89A52C8A28BD008CA8E5 /* AppDelegate.swift */,
 				DB5A89A72C8A28BD008CA8E5 /* SceneDelegate.swift */,
-				DB5A89A92C8A28BD008CA8E5 /* ViewController.swift */,
-				DB5A89AB2C8A28BD008CA8E5 /* Main.storyboard */,
+				DB5A89C52C8A64A8008CA8E5 /* MainViewController */,
+				DB1367ED2C8D014800BDA113 /* MiniApps */,
+				DB5A89BF2C8A3066008CA8E5 /* Networking */,
+				DB5A89C22C8A36D4008CA8E5 /* Model */,
 				DB5A89AE2C8A28BF008CA8E5 /* Assets.xcassets */,
 				DB5A89B02C8A28BF008CA8E5 /* LaunchScreen.storyboard */,
 				DB5A89B32C8A28BF008CA8E5 /* Info.plist */,
 			);
 			path = MiniApps;
+			sourceTree = "<group>";
+		};
+		DB5A89BF2C8A3066008CA8E5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DB5A89BD2C8A305E008CA8E5 /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DB5A89C22C8A36D4008CA8E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB5A89C02C8A36C7008CA8E5 /* WeatherResponceObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB5A89C52C8A64A8008CA8E5 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB5A89A92C8A28BD008CA8E5 /* MainViewController.swift */,
+				DB1367EB2C8CFA6800BDA113 /* MainViewControllerCell.swift */,
+			);
+			path = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,9 @@
 			dependencies = (
 			);
 			name = MiniApps;
+			packageProductDependencies = (
+				DB062D682C8D07C70090DB3F /* Kingfisher */,
+			);
 			productName = MiniApps;
 			productReference = DB5A89A22C8A28BD008CA8E5 /* MiniApps.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = DB5A89992C8A28BD008CA8E5;
+			packageReferences = (
+				DB062D672C8D07C70090DB3F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = DB5A89A32C8A28BD008CA8E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +185,6 @@
 			files = (
 				DB5A89B22C8A28BF008CA8E5 /* LaunchScreen.storyboard in Resources */,
 				DB5A89AF2C8A28BF008CA8E5 /* Assets.xcassets in Resources */,
-				DB5A89AD2C8A28BD008CA8E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5A89AA2C8A28BD008CA8E5 /* ViewController.swift in Sources */,
+				DB5A89AA2C8A28BD008CA8E5 /* MainViewController.swift in Sources */,
+				DB1367EC2C8CFA6800BDA113 /* MainViewControllerCell.swift in Sources */,
+				DB5A89C72C8A6541008CA8E5 /* TicTacToeMiniApp.swift in Sources */,
+				DB5A89BA2C8A2996008CA8E5 /* WeatherMiniApp.swift in Sources */,
 				DB5A89A62C8A28BD008CA8E5 /* AppDelegate.swift in Sources */,
+				DB5A89BC2C8A29F5008CA8E5 /* CityMiniApp.swift in Sources */,
+				DB5A89BE2C8A305E008CA8E5 /* ApiManager.swift in Sources */,
+				DB5A89C42C8A5A83008CA8E5 /* TimerMiniApp.swift in Sources */,
+				DB5A89C12C8A36C7008CA8E5 /* WeatherResponceObject.swift in Sources */,
 				DB5A89A82C8A28BD008CA8E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB5A89AB2C8A28BD008CA8E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB5A89AC2C8A28BD008CA8E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB5A89B02C8A28BF008CA8E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +353,9 @@
 				INFOPLIST_FILE = MiniApps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +363,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.bangmd.MiniApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,9 +385,9 @@
 				INFOPLIST_FILE = MiniApps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +395,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.bangmd.MiniApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +427,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB062D672C8D07C70090DB3F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB062D682C8D07C70090DB3F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB062D672C8D07C70090DB3F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DB5A899A2C8A28BD008CA8E5 /* Project object */;
 }
