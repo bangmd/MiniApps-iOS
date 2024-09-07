@@ -11,6 +11,7 @@ final class MainViewController: UIViewController {
         let tableView = UITableView()
         tableView.register(MainViewControllerCell.self, forCellReuseIdentifier: "cell")
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        tableView.backgroundColor = .whiteCl
         tableView.delegate = self
         tableView.dataSource = self
         return tableView
@@ -35,12 +36,16 @@ final class MainViewController: UIViewController {
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
 
+        navigationController?.navigationBar.backgroundColor = .whiteCl
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "См. режим", style: .plain, target: self, action: #selector(toggleMode))
         updateTitle()
     }
     
     private func updateTitle() {
         navigationItem.title = isInteractiveMode ? "Активный режим" : "Неактивный режим"
+        navigationController?.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.black
+        ]
     }
     
     @objc 
@@ -66,7 +71,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         
         if !isInteractiveMode {
             cell.isUserInteractionEnabled = false
-            cell.contentView.alpha = 0.5
+            cell.contentView.alpha = 0.7
         } else {
             cell.isUserInteractionEnabled = true
             cell.contentView.alpha = 1.0

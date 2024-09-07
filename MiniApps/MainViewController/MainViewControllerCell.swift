@@ -26,6 +26,7 @@ final class MainViewControllerCell: UITableViewCell {
     }
     
     private func configureCell() {
+        contentView.backgroundColor = .whiteCl
         contentView.addSubview(iconImageView)
         contentView.addSubview(titleLabel)
         
